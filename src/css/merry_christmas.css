@@ -154,6 +154,7 @@ body {
                     radial-gradient(4px 4px at 550px 550px,#fff,transparent);
   background-size: 300px 650px;
   animation: SnowAnim 3s linear infinite;
+  z-index: -1;
 }
 .snow:after {
   margin-left: -250px;
