@@ -1,4 +1,4 @@
-let f=0.1; // scaling factor constant, to change scale
+let f=0.5; // scaling factor constant, to change scale
 let z=['🎅','⛄','🎄','❄️', '🤶','🎁','🦌']; // 
 let t=0;
 let t2=0;
@@ -13,7 +13,7 @@ var canvas;
 // }
 
 function setup() {
-  canvas_size = 0.70*Math.min(windowWidth,windowHeight);
+  canvas_size = 0.80*Math.min(windowWidth,windowHeight);
   canvas = createCanvas(canvas_size, canvas_size);
   // centerCanvas();
   canvas.parent('sketch-holder');
@@ -21,7 +21,7 @@ function setup() {
 }
 
 function windowResized() {
-  canvas_size = 0.70*Math.min(windowWidth,windowHeight);
+  canvas_size = 0.80*Math.min(windowWidth,windowHeight);
   resizeCanvas(canvas_size, canvas_size);
   // centerCanvas();
 }
