@@ -1,4 +1,4 @@
-let f=0.5; // scaling factor constant, to change scale
+let f=0.7; // scaling factor constant, to change scale
 let z=['🎅','⛄','🎄','❄️', '🤶','🎁','🦌']; // 
 let t=0;
 let t2=0;
