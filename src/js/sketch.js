@@ -28,7 +28,7 @@ function windowResized() {
 
 function draw() {
   background(0);
-  for (let i=0;i<14;i++){
+  for (let i=0;i<140;i++){
     for (let j=0;j<6;j++){
     e(z[i%7],canvas_size/2+canvas_size/(3**(i-t2))*cos(TAU*j/6+t),canvas_size/2+canvas_size/(3**(i-t2))*sin(TAU*j/6+t),canvas_size/(3**(i-t2)));
     }
