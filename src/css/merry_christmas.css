@@ -115,3 +115,14 @@ body {
   color: white;
   justify-content: center;
 }
+
+.footer {
+  display: flex;
+  justify-content: center; /* This centers our button horizontally. */
+  align-items: center; /* This centers our button vertically. */
+}
+
+.footer p {
+  color: #f5f5f1;
+  font-size: 20px;
+}
